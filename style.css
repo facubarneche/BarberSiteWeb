@@ -26,6 +26,29 @@ html{
     background: #000000;
     opacity:.66;
 }
+.btn-wsp{
+    display: flex;
+    color: #ffffff;
+    background: green;
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    z-index: 20;
+    font-size: 60px;
+}
+.btn-wsp .fab{
+    font-size: 45px;
+}
+
 /*SERVICIOS*/
 
 .title h1{
@@ -52,7 +75,7 @@ html{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 80vh;
+    margin-top: 78vh;
 }
 .services{
     width: 100%;
@@ -105,6 +128,7 @@ html{
 }
 .productos button{
     color: rgb(197, 0, 0);
+    text-shadow: 1px 1px #000000;
     text-decoration: none;
 }
 
@@ -161,7 +185,7 @@ html{
 .footer a{
     color: rgb(250, 8, 8, 0.7);
 }
-.fab{
+.footer .fab{
     font-size: 70px;
     margin: 3px;
 }
@@ -187,6 +211,13 @@ a:hover{
 @media (min-width: 768px) {
     .data p{
         font-size: 2vw;
+    }
+    .btn-wsp{
+        height: 80px;
+        width: 80px;
+    }
+    .btn-wsp .fab{
+        font-size: 60px;
     }
     .services h2{
         font-size: 4vw;
